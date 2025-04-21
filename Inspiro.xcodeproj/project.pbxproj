@@ -16,6 +16,15 @@
 		B3A6F1292DB6DF0900C997F7 /* InspiroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A6F1282DB6DF0900C997F7 /* InspiroTests.swift */; };
 		B3A6F1332DB6DF0900C997F7 /* InspiroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A6F1322DB6DF0900C997F7 /* InspiroUITests.swift */; };
 		B3A6F1352DB6DF0900C997F7 /* InspiroUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A6F1342DB6DF0900C997F7 /* InspiroUITestsLaunchTests.swift */; };
+		B3A6F1492DB6EC2200C997F7 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A6F1482DB6EC2200C997F7 /* Coordinator.swift */; };
+		B3A6F14B2DB6ED4D00C997F7 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A6F14A2DB6ED4D00C997F7 /* Request.swift */; };
+		B3A6F14D2DB6ED6500C997F7 /* ZenQuotesRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A6F14C2DB6ED6500C997F7 /* ZenQuotesRequest.swift */; };
+		B3A6F14F2DB6ED9E00C997F7 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A6F14E2DB6ED9E00C997F7 /* Quote.swift */; };
+		B3A6F1512DB6EDC400C997F7 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A6F1502DB6EDC400C997F7 /* NetworkClient.swift */; };
+		B3A6F1532DB6EDFC00C997F7 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A6F1522DB6EDFC00C997F7 /* NetworkError.swift */; };
+		B3A6F15D2DB6EF9E00C997F7 /* QuoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A6F15C2DB6EF9E00C997F7 /* QuoteViewModel.swift */; };
+		B3A6F1602DB6EFC600C997F7 /* QuoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A6F15F2DB6EFC600C997F7 /* QuoteViewController.swift */; };
+		B3A6F1622DB6F0FA00C997F7 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A6F1612DB6F0FA00C997F7 /* AppCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +58,15 @@
 		B3A6F12E2DB6DF0900C997F7 /* InspiroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InspiroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3A6F1322DB6DF0900C997F7 /* InspiroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspiroUITests.swift; sourceTree = "<group>"; };
 		B3A6F1342DB6DF0900C997F7 /* InspiroUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspiroUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B3A6F1482DB6EC2200C997F7 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		B3A6F14A2DB6ED4D00C997F7 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		B3A6F14C2DB6ED6500C997F7 /* ZenQuotesRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZenQuotesRequest.swift; sourceTree = "<group>"; };
+		B3A6F14E2DB6ED9E00C997F7 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		B3A6F1502DB6EDC400C997F7 /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		B3A6F1522DB6EDFC00C997F7 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		B3A6F15C2DB6EF9E00C997F7 /* QuoteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteViewModel.swift; sourceTree = "<group>"; };
+		B3A6F15F2DB6EFC600C997F7 /* QuoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteViewController.swift; sourceTree = "<group>"; };
+		B3A6F1612DB6F0FA00C997F7 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +97,9 @@
 		B3A6F1052DB6DF0600C997F7 = {
 			isa = PBXGroup;
 			children = (
+				B3A6F1422DB6EB7200C997F7 /* Core */,
+				B3A6F1592DB6EF7700C997F7 /* Features */,
+				B3A6F1412DB6EB6500C997F7 /* App */,
 				B3A6F1102DB6DF0600C997F7 /* Inspiro */,
 				B3A6F1272DB6DF0900C997F7 /* InspiroTests */,
 				B3A6F1312DB6DF0900C997F7 /* InspiroUITests */,
@@ -125,6 +146,84 @@
 				B3A6F1342DB6DF0900C997F7 /* InspiroUITestsLaunchTests.swift */,
 			);
 			path = InspiroUITests;
+			sourceTree = "<group>";
+		};
+		B3A6F1412DB6EB6500C997F7 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B3A6F1482DB6EC2200C997F7 /* Coordinator.swift */,
+				B3A6F1612DB6F0FA00C997F7 /* AppCoordinator.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B3A6F1422DB6EB7200C997F7 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B3A6F1452DB6EC0800C997F7 /* Networking */,
+				B3A6F1432DB6EB7900C997F7 /* Models */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		B3A6F1432DB6EB7900C997F7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B3A6F14E2DB6ED9E00C997F7 /* Quote.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B3A6F1452DB6EC0800C997F7 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				B3A6F1542DB6EE0E00C997F7 /* Errors */,
+				B3A6F1502DB6EDC400C997F7 /* NetworkClient.swift */,
+				B3A6F14A2DB6ED4D00C997F7 /* Request.swift */,
+				B3A6F14C2DB6ED6500C997F7 /* ZenQuotesRequest.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		B3A6F1542DB6EE0E00C997F7 /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				B3A6F1522DB6EDFC00C997F7 /* NetworkError.swift */,
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
+		B3A6F1592DB6EF7700C997F7 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				B3A6F15A2DB6EF8900C997F7 /* Quote */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		B3A6F15A2DB6EF8900C997F7 /* Quote */ = {
+			isa = PBXGroup;
+			children = (
+				B3A6F15E2DB6EFB400C997F7 /* Views */,
+				B3A6F15B2DB6EF9000C997F7 /* ViewModels */,
+			);
+			path = Quote;
+			sourceTree = "<group>";
+		};
+		B3A6F15B2DB6EF9000C997F7 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B3A6F15C2DB6EF9E00C997F7 /* QuoteViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B3A6F15E2DB6EFB400C997F7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B3A6F15F2DB6EFC600C997F7 /* QuoteViewController.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +357,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3A6F14B2DB6ED4D00C997F7 /* Request.swift in Sources */,
+				B3A6F1622DB6F0FA00C997F7 /* AppCoordinator.swift in Sources */,
 				B3A6F1162DB6DF0600C997F7 /* ViewController.swift in Sources */,
+				B3A6F1492DB6EC2200C997F7 /* Coordinator.swift in Sources */,
+				B3A6F14F2DB6ED9E00C997F7 /* Quote.swift in Sources */,
+				B3A6F1512DB6EDC400C997F7 /* NetworkClient.swift in Sources */,
+				B3A6F1532DB6EDFC00C997F7 /* NetworkError.swift in Sources */,
+				B3A6F15D2DB6EF9E00C997F7 /* QuoteViewModel.swift in Sources */,
 				B3A6F1122DB6DF0600C997F7 /* AppDelegate.swift in Sources */,
+				B3A6F1602DB6EFC600C997F7 /* QuoteViewController.swift in Sources */,
 				B3A6F1142DB6DF0600C997F7 /* SceneDelegate.swift in Sources */,
+				B3A6F14D2DB6ED6500C997F7 /* ZenQuotesRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
