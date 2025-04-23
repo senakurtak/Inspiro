@@ -1,0 +1,10 @@
+included:
+  - Inspiro
+
+excluded:
+  - InspiroTests
+  - InspiroUITests
+  - .git
+
+reporter: xcode
+
