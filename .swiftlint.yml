@@ -5,6 +5,14 @@ excluded:
   - InspiroTests
   - InspiroUITests
   - .git
+  
+line_length:
+    warning: 150
+    ignores_function_declarations: true
+    ignores_comments: true
+    ignores_interpolated_strings: true
+    ignores_urls: true
 
-reporter: xcode
-
+disabled_rules:
+    - superfluous_disable_command
+    - trailing_whitespace
